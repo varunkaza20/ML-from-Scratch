@@ -163,10 +163,10 @@ Whenever applicable, notebooks explicitly show the objective or loss function, p
 
 For example, linear regression implemented using batch gradient descent follows the objective:
 
-\[
+$$
 J(w,b)=\frac{1}{2m}\sum_{i=1}^{m}
 \left(\hat{y}^{(i)}-y^{(i)}\right)^2
-\]
+$$
 
 The updates are calculated using the gradients of this objective rather than delegated to an external estimator.
 
@@ -189,11 +189,9 @@ When a train/test split is used, preprocessing parameters such as feature means 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ML-from-Scratch.git
+git clone https://github.com/varunkaza20/ML-from-Scratch.git
 cd ML-from-Scratch
 ```
-
-Replace `YOUR-USERNAME` with your GitHub username.
 
 ### 2. Create a virtual environment
 
